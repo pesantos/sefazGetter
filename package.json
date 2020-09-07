@@ -1,0 +1,26 @@
+{
+  "name": "sefazgetter",
+  "version": "1.0.0",
+  "description": "Biblioteca para obter JSON dos itens dos cupons fiscais de Minas Gerais",
+  "main": "testeSefaz",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesantos/sefazgetter.git"
+  },
+  "keywords": [
+    "sefaz",
+    "mg",
+    "cupom",
+    "fiscal",
+    "json"
+  ],
+  "author": "Paulo Eduardo Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pesantos/sefazgetter/issues"
+  },
+  "homepage": "https://github.com/pesantos/sefazgetter#readme"
+}
