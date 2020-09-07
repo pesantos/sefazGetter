@@ -3,7 +3,7 @@ Obtenha as informações do site da Sefaz (Cupom Fiscal MG)
 
 
 importe a biblioteca <br>
-<code><b>let sefaz = require('./sefazGetter.js');<b></code>
+<code>let sefaz = require('./sefazGetter.js');</code>
 <br>
 forneça a chave do cupom fiscal, normalmente é o valor que segue após o endereço abaixo
 
@@ -13,8 +13,8 @@ A chave pode ser facilmente obtida dos cupons físicos, basta ler o QRCode que h
 De posse da chave, basta chamar a biblioteca.<br>
 
 <code>
-<b>let chave = "sua chave aqui";</b><br>
-<b>sefaz.obterInformacao(chave).then(resposta=>{console.log("Resposta no formato JSON",resposta);});</b>
+let chave = "sua chave aqui";
+sefaz.obterInformacao(chave).then(resposta=>{console.log("Resposta no formato JSON",resposta);});
 </code>
 
 
