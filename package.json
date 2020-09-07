@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pesantos/sefazgetter/issues"
   },
-  "homepage": "https://github.com/pesantos/sefazgetter#readme"
+  "homepage": "https://github.com/pesantos/sefazgetter#readme",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
 }
